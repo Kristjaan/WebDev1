@@ -1,0 +1,69 @@
+/*.centered {
+    margin: 0 auto;
+    width: 400px;
+}*/
+.image {
+  margin: 0 auto;
+  width: 100px;
+  height: 150px;
+  transition-property: width, height;
+  transition: width 2s, height 4s;
+  /*transition-timing-function: linear;*/
+}
+
+.image:hover {
+  width: 320px;
+  height: 200px
+}
+
+.fontclass {
+  font-size: 20px;
+}
+
+.blueclass {
+  color: blue;
+}
+
+.redclass {
+  color: red;
+}
+
+strong {
+  text-decoration: underline;
+  font-size: 1.2em;
+}
+
+thead {
+  color: green;
+}
+
+tbody {
+  color: blue;
+}
+
+tfoot {
+  color: red;
+}
+
+.name {
+  padding: 10px;
+  border: 6px pink solid;
+  margin: 20px;
+}
+
+.name:hover {
+  border: 6px red solid;
+}
+
+/*div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+/*    transition: width 2s, height 4s;
+}/*
+
+div:hover {
+    width: 300px;
+    height: 300px;
+}
